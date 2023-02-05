@@ -1,10 +1,10 @@
-function akarPangkatDua (x) {
+let akarPangkatDua = x => {
     if (x < 0) 
-       return ("Tidak bisa input bilangan negatif");
+        console.log("Tidak bisa input bilangan negatif");
     else if ((x % 2) != 0 )
-        return ("Tidak bisa input bilangan ganjil");
+        console.log("Tidak bisa input bilangan ganjil");
     else
         return console.log(Math.sqrt(x));
 }
 
-akarPangkatDua(100);
+akarPangkatDua(1);
