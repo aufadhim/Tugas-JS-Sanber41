@@ -8,3 +8,5 @@ let akarPangkatDua = x => {
 }
 
 akarPangkatDua(1);
+akarPangkatDua(100);
+akarPangkatDua(-1);
